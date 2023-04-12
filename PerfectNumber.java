@@ -10,10 +10,9 @@ public class PerfectNumber {
 		
 			{  
 				int n, sum=0;  
-				try (Scanner sc = new Scanner(System.in)) {
-					System.out.print("Enter the number: ");  
-					n=sc.nextInt();
-				}         
+				Scanner sc=new Scanner(System.in);         
+				System.out.print("Enter the number: ");  
+				n=sc.nextInt();  
 				int i=1;  
 				 
 				while(i <= n/2)  
